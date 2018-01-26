@@ -1,0 +1,11 @@
+config interface 'modem'
+	option country 'country13'
+	option metric '40'
+	option proto '3g'
+	option ifname '3g-modem'
+	option device '/dev/ttyUSB1'
+	option sp 'isp1'
+	option dialnum '*99#'
+	option apn '3gnet'
+	option service 'umts'
+

@@ -1,4 +1,4 @@
-confgi interface 'modem'
+config interface 'modem'
         option country 'country13'
         option sp 'isp0'
         option dialnum '#777'

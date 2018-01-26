@@ -1,0 +1,13 @@
+config interface 'modem'
+	option proto '3g'
+	option ifname '3g-modem'
+	option device '/dev/ttyUSB1'
+	option country 'country13'
+	option sp 'isp0'
+	option service 'umts'
+	option dialnum '#777'
+	option apn 'ctnet'
+	option username 'ctnet@mycdma.cn'
+	option password 'vnet.mobi'
+	option metric '40'
+
