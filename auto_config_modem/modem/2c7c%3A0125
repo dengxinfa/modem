@@ -1,3 +1,18 @@
+#telecom
+config interface 'modem'
+        option proto 'qmi'
+        option ifname 'wwan0'
+        option device '/dev/cdc-wdm0'
+        option country 'country13'
+        option sp 'isp0'
+        option dialnum '#777'
+        option apn 'ctnet'
+        option username 'ctnet@mycdma.cn'
+        option password 'vnet.mobi'
+        option metric '40'
+        option service 'evdo'
+
+#unicom
 config interface 'modem'
         option proto 'qmi'
         option ifname 'wwan0'

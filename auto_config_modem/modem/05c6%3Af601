@@ -1,3 +1,4 @@
+#telecom
 config interface 'modem'
 	option country 'country13'
 	option metric '40'
